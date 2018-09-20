@@ -13,7 +13,7 @@ if len(sys.argv) < 2:
 system1_ip = sys.argv[1]
 sys2_ip = sys.argv[2]
 
-child = pexpect.spawn('ssh radius @192.168.51.222')
+child = pexpect.spawn('ssh naga @192.168.0.222')
 #child.expect('password:', timeout=120)
 child.sendline('t35ting')
 #child.expect ('prompt# ')
